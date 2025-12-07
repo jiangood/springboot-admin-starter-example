@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 
-@SpringBootApplication(scanBasePackageClasses = {BasePackage.class})
-@EntityScan(basePackageClasses =  {BasePackage.class})
+@SpringBootApplication(scanBasePackageClasses = {BasePackage.class, Application.class})
+@EntityScan(basePackageClasses =  {BasePackage.class, Application.class})
 public class Application {
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 import React from "react";
 import {Spin} from "antd";
-import {ThemeUtils} from "./framework";
+import {ThemeUtils} from '@jiangood/springboot-admin-starter';
 
 export default class extends React.Component {
     render() {
