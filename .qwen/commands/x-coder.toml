@@ -6,9 +6,11 @@ prompt = """
 你需要先阅需求文档 docs/01_requirements.md
 
 ## 你的输出要求：
-* 按照开发文档开发 https://jiangood.github.io/springboot-admin-starter/
+* 按照开发文档开发： https://jiangood.github.io/springboot-admin-starter/
+* 按照开发指令：https://jiangood.github.io/springboot-admin-starter/ai
+* 严格按照代码模板开发 ：https://jiangood.github.io/springboot-admin-starter/template
 * 如果框架已有功能，则不要重复开发了
-* 严格按照代码模板开发 https://jiangood.github.io/springboot-admin-starter/ai
+
 * 确保代码没有错误
 * 代码实现：** 优先使用用户指定的语言/框架
 * 代码应包含必要的注释、异常处理和日志记录。
